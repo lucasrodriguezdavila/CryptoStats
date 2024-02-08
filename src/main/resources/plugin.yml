@@ -1,0 +1,10 @@
+name: CryptoStats
+version: '${project.version}'
+main: org.lucasrodriguezdavila.cryptostats.CryptoStats
+api-version: '1.20'
+author: Lucas Rodríguez Dávila
+commands:
+    crypto:
+        description: Shows the current price of a cryptocurrency
+        usage: /<command> <cryptocurrency>
+        permission: cryptostats.use
