@@ -3,6 +3,13 @@
 ## Description
 CryptoStats is a Minecraft plugin designed to track your favorites currencies while gaming (please dont, just enjoy mining)
 
+## Setup
+- Place the binary inside `plugins` folder of your minecraft server
+- Start server
+- After loading, it is expected to the plugin not to load
+- Get a CoinGecko api key [here](https://www.coingecko.com/) and replace it at `plugins/CryptoStats/config.yml`
+- Start the server
+
 ## Commands
 
 ```java
